@@ -11,7 +11,6 @@ class Game {
     }
 
     void run(){
-        int Ties;
         int rounds;
         int userChoice;
         int compChoice;
@@ -19,7 +18,6 @@ class Game {
 
         System.out.println("Welcome. The game begins now.");
         rounds = uv.createRounds(ur,cp);
-        Ties = 0;
         boolean gameTime = true;
 
         while(gameTime){

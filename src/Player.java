@@ -7,5 +7,4 @@ public interface Player {
     int getWins();
 
     void setWins();
-
 }
